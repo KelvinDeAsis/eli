@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1dec8;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-image: url('https://images7.alphacoders.com/113/1137731.jpg');
+    background-size: cover;
+    padding: 100px 0; /* Adjusted padding */
+    margin: 0;
+    text-align: center;
+}
+
+.header-content {
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.header-content h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 64px; /* Adjusted font size */
+    margin-bottom: 10px; /* Adjusted margin */
+    color: #fff;
+}
+
+.header-content p {
+    font-size: 16px; /* Adjusted font size */
+    color: #fff;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0; /* Adjusted padding */
+    text-align: center;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Adjusted margin */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px; /* Adjusted font size */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF7F00;
+}
+
+section {
+    padding: 50px 0; /* Adjusted padding */
+    
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 48px; /* Adjusted font size */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px; /* Adjusted font size */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px; /* Adjusted font size */
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FF7F00;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.image-container a {
+    margin: 10px; /* Adjusted margin */
+}
+
+.image-container img {
+    max-width: 380; /* Ensures images don't exceed container width */
+    height: 440; /* Maintains aspect ratio */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0; /* Adjusted padding */
+    text-align: center;
+    margin-top: 20px; /* Adjusted margin */
+}
+
+.us {
+    background-color: #f1dec8;
+    padding: 50px 0;
+}
+
+.section-content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.us {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.image-container a {
+    width: 30%; /* Each image container takes up 30% of the width */
+    margin: 40px; /* Add some margin around each image container */
+}
+
+.image-container img {
+    width: 370px;
+    height: 400px;
+}
+
+.spi1 {
+    font-size: 50px;
+}
